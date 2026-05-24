@@ -1,0 +1,38 @@
+{
+  "name": "tiktoken-data",
+  "version": "0.1.0",
+  "description": "BPE tokenizer data files for LLMs (o200k_base, cl100k_base, DeepSeek V3/V2)",
+  "keywords": [
+    "tiktoken",
+    "tokenizer",
+    "bpe",
+    "openai",
+    "deepseek",
+    "claude"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/System233/tiktoken-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/System233/tiktoken-data/issues"
+  },
+  "homepage": "https://github.com/System233/tiktoken-data#readme",
+  "main": "./data/meta.json",
+  "exports": {
+    ".": {
+      "import": "./data/meta.json",
+      "require": "./data/meta.json",
+      "default": "./data/meta.json"
+    },
+    "./data/meta.json": "./data/meta.json",
+    "./data/o200k_base.tiktoken": "./data/o200k_base.tiktoken",
+    "./data/cl100k_base.tiktoken": "./data/cl100k_base.tiktoken",
+    "./data/deepseek_v3.tiktoken": "./data/deepseek_v3.tiktoken",
+    "./data/deepseek_v2.tiktoken": "./data/deepseek_v2.tiktoken"
+  },
+  "files": [
+    "data/"
+  ]
+}
