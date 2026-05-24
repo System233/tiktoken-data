@@ -1,6 +1,6 @@
 {
   "name": "tiktoken-data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "BPE tokenizer data files for LLMs (o200k_base, cl100k_base, DeepSeek V3/V2)",
   "keywords": [
     "tiktoken",
